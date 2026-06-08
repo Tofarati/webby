@@ -1,1 +1,179 @@
 <h1>Welcome to My Website</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #333;
+        }
+
+        header h1 {
+            color: #00bfff;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00bfff;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,191,255,0.2);
+        }
+
+        h2 {
+            color: #00bfff;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #00bfff;
+        }
+
+        a:hover {
+            color: #66d9ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-top: 2px solid #333;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #00bfff;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #66d9ff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Cybersecurity | Software Development | Research</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#linkedin">LinkedIn</a>
+            <a href="#certificates">Certificates</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio website. I am passionate about
+                cybersecurity, software development, and emerging technologies.
+                Here you can find my professional profile and certifications.
+            </p>
+        </section>
+
+        <section id="linkedin" class="card">
+            <h2>LinkedIn</h2>
+            <p>Connect with me on LinkedIn:</p>
+
+            <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
+               target="_blank"
+               class="button">
+                View LinkedIn Profile
+            </a>
+        </section>
+
+        <section id="certificates" class="card">
+            <h2>Certificates</h2>
+
+            <ul>
+                <li>
+                    📜 <a href="certificate1.pdf" target="_blank">
+                    Google Cybersecurity Certificate
+                    </a>
+                </li>
+
+                <li>
+                    📜 <a href="certificate2.pdf" target="_blank">
+                    CompTIA Security+ Training
+                    </a>
+                </li>
+
+                <li>
+                    📜 <a href="certificate3.pdf" target="_blank">
+                    AWS Cloud Practitioner
+                    </a>
+                </li>
+
+                <li>
+                    📜 <a href="certificate4.pdf" target="_blank">
+                    Python Programming Certificate
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
