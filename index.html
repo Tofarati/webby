@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Tofarati Aina | Portfolio</title>
 
     <style>
         * {
@@ -15,165 +15,214 @@
         }
 
         body {
-            background-color: #121212;
-            color: white;
+            background: #0d1117;
+            color: #e6edf3;
             line-height: 1.6;
         }
 
         header {
-            background-color: #1e1e1e;
-            padding: 20px;
             text-align: center;
-            border-bottom: 2px solid #333;
+            padding: 60px 20px;
+            background: #161b22;
+            border-bottom: 1px solid #30363d;
         }
 
         header h1 {
-            color: #00bfff;
+            font-size: 3rem;
+            color: #58a6ff;
+        }
+
+        header p {
+            margin-top: 10px;
+            color: #8b949e;
         }
 
         nav {
-            margin-top: 10px;
+            margin-top: 20px;
         }
 
         nav a {
-            color: white;
+            color: #58a6ff;
             text-decoration: none;
             margin: 0 15px;
-            transition: 0.3s;
+            font-weight: bold;
         }
 
         nav a:hover {
-            color: #00bfff;
+            color: #79c0ff;
         }
 
         .container {
-            width: 80%;
+            width: 85%;
+            max-width: 1000px;
             margin: auto;
             padding: 40px 0;
         }
 
-        .card {
-            background-color: #1e1e1e;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,191,255,0.2);
+        .section {
+            background: #161b22;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #30363d;
         }
 
         h2 {
-            color: #00bfff;
-            margin-bottom: 10px;
+            color: #58a6ff;
+            margin-bottom: 15px;
         }
 
-        ul {
+        p {
+            color: #c9d1d9;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background: #238636;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #2ea043;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            color: #79c0ff;
+            margin-bottom: 5px;
+        }
+
+        .cert-list {
             list-style: none;
         }
 
-        ul li {
-            margin: 10px 0;
+        .cert-list li {
+            margin-bottom: 12px;
         }
 
-        a {
-            color: #00bfff;
+        .cert-list a {
+            color: #58a6ff;
+            text-decoration: none;
         }
 
-        a:hover {
-            color: #66d9ff;
+        .cert-list a:hover {
+            text-decoration: underline;
         }
 
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #1e1e1e;
-            border-top: 2px solid #333;
-        }
-
-        .button {
-            display: inline-block;
-            background-color: #00bfff;
-            color: black;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-
-        .button:hover {
-            background-color: #66d9ff;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Your Name</h1>
-        <p>Cybersecurity | Software Development | Research</p>
+<header>
+    <h1>Tofarati Aina</h1>
+    <p>Cybersecurity • Research • Technology</p>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#linkedin">LinkedIn</a>
-            <a href="#certificates">Certificates</a>
-        </nav>
-    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-    <div class="container">
+<div class="container">
 
-        <section id="about" class="card">
-            <h2>About Me</h2>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a cybersecurity student passionate about security engineering,
+            cyber-physical systems, embedded security, and emerging technologies.
+            My goal is to build practical solutions that secure critical systems
+            while continuing to grow as a cybersecurity professional.
+        </p>
+
+        <a href="resume.pdf" target="_blank" class="button">
+            Download Resume
+        </a>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+
+        <div class="project">
+            <h3>Deloitte Technology Intern</h3>
             <p>
-                Welcome to my portfolio website. I am passionate about
-                cybersecurity, software development, and emerging technologies.
-                Here you can find my professional profile and certifications.
+                Worked with the ServiceNow team, learning enterprise workflows,
+                instances, patch management, and business technology solutions.
             </p>
-        </section>
+        </div>
 
-        <section id="linkedin" class="card">
-            <h2>LinkedIn</h2>
-            <p>Connect with me on LinkedIn:</p>
+        <div class="project">
+            <h3>Cybersecurity Research Intern</h3>
+            <p>
+                Assisted with cyber-physical security models using Arduino and
+                Raspberry Pi platforms to simulate attacks against real-world systems.
+            </p>
+        </div>
+    </section>
 
-            <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
-               target="_blank"
-               class="button">
-                View LinkedIn Profile
-            </a>
-        </section>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
 
-        <section id="certificates" class="card">
-            <h2>Certificates</h2>
+    
+    </section>
 
-            <ul>
-                <li>
-                    📜 <a href="certificate1.pdf" target="_blank">
-                    Google Cybersecurity Certificate
-                    </a>
-                </li>
+    <section id="certificates" class="section">
+        <h2>Certificates</h2>
 
-                <li>
-                    📜 <a href="certificate2.pdf" target="_blank">
-                    CompTIA Security+ Training
-                    </a>
-                </li>
+        <ul class="cert-list">
+            <li>
+                
+            </li>
 
-                <li>
-                    📜 <a href="certificate3.pdf" target="_blank">
-                    AWS Cloud Practitioner
-                    </a>
-                </li>
+            <li>
+                📜 <a href="certificate4.pdf" target="_blank">
+                    Certificate 4
+                </a>
+            </li>
+        </ul>
+    </section>
 
-                <li>
-                    📜 <a href="certificate4.pdf" target="_blank">
-                    Python Programming Certificate
-                    </a>
-                </li>
-            </ul>
-        </section>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
 
-    </div>
+        <p>Connect with me professionally:</p>
 
-    <footer>
-        <p>&copy; 2026 Your Name. All Rights Reserved.</p>
-    </footer>
+        <a href="linkedin.com/in/oluwatofarati-aina-a01364237"
+           target="_blank"
+           class="button">
+            LinkedIn Profile
+        </a>
+
+        <br><br>
+
+        <a href="https://github.com/YOUR-GITHUB"
+           target="_blank"
+           class="button">
+            GitHub Profile
+        </a>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Tofarati Aina | Portfolio Website</p>
+</footer>
 
 </body>
 </html>
